@@ -1,6 +1,6 @@
 # Simple start
 1. Clone or download this repo
-1. Read through the instructions within `presentation.md`
+1. Follow along with the instructions in `presentation.md`
 
 
 # To view the presentation in your own browser
