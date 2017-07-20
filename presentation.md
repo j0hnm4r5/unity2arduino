@@ -45,7 +45,7 @@ Create an Unity scene that changes the lighting of the scene according to bright
 
 #### Get the Project Files
 
-1. Download the files from: []()
+1. Download the files from: [https://github.com/j0hnm4r5/unity2arduino](https://github.com/j0hnm4r5/unity2arduino)
 1. Unzip the package
 
 ---
@@ -194,12 +194,15 @@ Create an Unity scene that changes the lighting of the scene according to bright
 ---
 
 #### Get Set Up
+
+1. In the Arduino IDE, go to **Sketch > Include Library > Add .ZIP Library**, and select `SerialCommand.zip` from the downloaded Project Files
+1. Restart the Arduino IDE
+1. Check to make sure the library was correctly added, by looking for examples under **File > Sketchbook > SerialCommand**
+ ---
+
 1. In Unity, go to **Edit > Player Settings**
 1. Change the `Api Compatability Level` to `.NET 2.0`
 1. Save the Unity Project and Scene
-1. Unzip the `ArduinoSerialCommand-master.zip` from the Project Files, and place it within `C:\Users\<username>\Documents\Arduino\` on Windows, or `/Users/<username>/Documents/Arduino/` on OSX
-1. Restart the Arduino IDE
-1. Check to make sure the library was correctly added, by looking under **File > Sketchbook > SerialCommand**
 
 ---
 
@@ -251,3 +254,11 @@ Create an Unity scene that changes the lighting of the scene according to bright
 
 1. Drag the *Directional Light* to the **Light** variable box in *Arduino Manager*
 1. Play the scene again, and watch as the scene lighting changes as you block, unblock, and light up the photocell!
+
+---
+
+class: middle, center, impact
+
+# Congratulations!
+
+## Go have fun on your own

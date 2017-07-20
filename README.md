@@ -4,6 +4,6 @@
 
 
 # To view the presentation in your own browser
-1. Install backslide with `npm install`
+1. Install backslide with `npm install -g backslide`
 1. `bs serve` to view the slideshow
 1. When the page pops up in your browser, click `presentation.html`
